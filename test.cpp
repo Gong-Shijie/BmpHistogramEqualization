@@ -13,14 +13,14 @@ int main()
 		cout << "打开文件成功！" << endl;
 
 		if (bmp.bi.biBitCount < 24) {
-			bmp.GrayDrawHistogram();
+
 			bmp.GrayHistogramEqualization();
-			bmp.GrayDrawHistogram();
+
 		}
 		else {
-			bmp.ColorDrawHistogram();
+
 			bmp.ColorHistogramEqualization();
-			bmp.ColorDrawHistogram();
+
 		}
 
 	
